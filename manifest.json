@@ -1,0 +1,16 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": ["tools/chrome_tools/chrome_tools.js", "imdb.js" ],
+      "css": ["imdb.css"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end"
+   } ],
+   "description": "Watch movie trailers from YouTube in IMDB and search for torrents (thepiratebay)",
+   "options_page": "options.html",
+   "name": "IMDB plus",
+   "permissions": ["http://*/*", "https://*/*", "tabs"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.7"
+}

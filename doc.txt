@@ -1,0 +1,51 @@
+<style type="text/css">
+.viewTrailers{background-color:#DFE7FF; padding:4px; text-transform:uppercase; text-decoration:none; font-family:Arial,Helvetica,sans-serif; font-size:8px; color:#8191FE; -webkit-border-radius:3px; letter-spacing:1px; font-weight:bold; margin:0px 3px}
+
+.viewTrailers:hover{background-color:#8191FE;color:#DFE7FF}
+</style>
+
+<a href="#" class="viewTrailers">View Trailers</a>
+
+
+Version 1.0
+- Add view results on youtube link
+- Add caching... simple, just for current page. NOTE: maybe use database to cache all videos
+- Add torrent search (keywords improvements + displays size, seeds, leechers)
+- Add mark as watched, unmark, add to watchlist, remove from watchlist and connect to movies.voeb.ca
+
+
+---------
+New version:
+TODO:
+- create X players using swfObject (youtube api) and move them around
+- retrieve titles and put them in a dropdown. When selecting a title, load the video
+- use previous and next buttons to move between videos
+- add options
+  - limit
+  - player size
+  - play when loaded
+  - pagination (prev, next) video
+
+--------------
+
+
+
+limit to 1,
+create only one player and move it around
++ add pagination
+
+
+Bug:
+it doesn't work here
+http://www.imdb.com/title/tt1329665/
+http://www.imdb.com/chart/top
+http://www.imdb.com/title/tt0054997/
+
+check why it doesn't work with ratings
+
+Ideas:
+- think of watchlist and mark as watched features
+- hide all others
+- make options above and between videos ... this way, no need to scroll up
+- follow actors
+- follow movie
